@@ -1,0 +1,51 @@
+body{
+    background: #2F303E;
+    font-family: 'Nunito', sans-serif;
+}
+
+#main-box{
+    border-radius: 5px;
+    background: #e2e2e2;
+    padding: 10px;
+    margin-top: 50px;
+}
+#result-box{
+    border-radius: 5px;
+    background: #e2e2e2;
+    padding: 10px;
+}
+#city{
+    padding: 5px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px black solid;
+    background: transparent;
+}
+label{
+    font-size: 14px;
+}
+#copyright{
+    font-size: 12px;
+}
+#temperature, #weather, #wind, #general{
+    cursor: pointer;
+    margin-right: 20px;
+}
+.box-temp{
+    font-size: 13px;
+    font-weight: 600;
+}
+.box-weather{
+    font-size: 13px;
+    font-weight: 600;
+}
+.box-general{
+    font-size: 13px;
+    font-weight: 600;
+}
+.box-wind{
+    font-size: 13px;
+    font-weight: 600;
+}
