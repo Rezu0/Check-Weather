@@ -1,0 +1,76 @@
+NEW AYOTAKU
+
+Front End
+1. HTML
+2. Bootstrap / CSS
+3. Jquery / JS Vanilla / Node.js ( jika memungkinkan )
+4. Function Router 
+	-> Memudahkan untuk mengelola URL dan param
+5. Jika bisa nambah plugin ( jika memungkinkan )
+
+Back End
+1. Laravel 8
+2. PHP Native ( Jika memungkinkan )
+3. Codeigniter 3 / 4
+
+"GET" API Detail Anime 
+1. Myanimelist ( Bearer Token & Oauth 2.0 )
+
+Create API For Ayotaku
+1. Laravel 8 ( Controller dan Kelola Data )
+2. Auth ( JWT -> Laravel 8 [ semoga bisa ] )
+3. User Validation ( JWT -> Laravel 8 [ semoga bisa ] )
+
+Fitur Ayotaku{
+	User => {
+        'Basic' => {
+            'Audit-log ( jadi setiap user melakukan add, update, delete atau liat page bisa ada histori siapa saja yang melakukan action )',
+            'Bila User Klik Salah Satu page, akan ada dihitung untuk view di page tersebut'
+        },
+        'Auth' => {
+            'register ( kirim kode verify ke email mereka )',
+            'login',
+            'forgot/reset password'
+        },
+        'Chief Admin' => {
+            'CRUD anime/eps anime',
+            'Config User ( Delete & Ban )'
+        },
+        'Admin Biasa' => {
+            'CRUD anime/eps anime'
+        },
+        'User' => {
+            'Favorite Anime',
+            'Like Anime ( Next Fitur )'
+        }
+    },
+    'Content' => {
+        'Main' => {
+            'Tampil kan Eps terbaru Anime di Index',
+            'Search Anime Sesuai Judulnya',
+            'Daftar Anime'
+        }
+        'Side' => {
+            'Bisa cari anime lewat Genre, Studio, Season ( Next Fitur )'
+        }
+    },
+    'Finish All Task ( Next Project )' => {
+        'Membuat Blog Khusus Anime Seperti Berita atau apapun itu tentang Anime'
+    },
+    'UI / UX' => {
+        'Dark Mode / Light Mode'
+        'Random Anime'
+        'Live Search ( jika memungkinkan )
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+

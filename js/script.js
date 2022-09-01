@@ -28,6 +28,9 @@ $(document).ready(function(){
         }
     }
 
+    $('#result-box').append('<button class="btn btn-info clicked">cek</button>')
+
+
     function unixTimeStamp(data){
         let unix_timestamp = data
         var date = new Date(unix_timestamp * 1000)
@@ -51,7 +54,7 @@ $(document).ready(function(){
 
         $('#result-box').slideDown()
 
-        fetch('https://api.openweathermap.org/data/2.5/weather?q=' + valueInput + '&appid=YOUR_KEY_API')
+        fetch('https://api.openweathermap.org/data/2.5/weather?q=' + valueInput + '&appid=5b8598da6e663d2767d1029c369fedf4')
             .then(response => response.json())
             .then(data => {
                 switch(data.cod){
